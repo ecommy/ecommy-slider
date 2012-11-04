@@ -1,0 +1,35 @@
+.ecommy-slideshow {
+	position: relative;
+	display: block;
+	height: 520px;
+	width: 900px; margin-left: auto; margin-right: auto;
+	list-style-type: none;
+}
+
+.ecommy-slideshow>li {
+	position: absolute;
+	left: 0px;
+	top: 0px;	
+	display: block;
+	width: 900px;
+}
+
+.ecommy-slideshow .cpanel {
+	position: absolute;
+	bottom: 0px;
+	margin-left: auto; margin-right: auto; 
+}
+
+.ecommy-slideshow .cpanel a {
+	width: 13px;
+	height: 13px;
+	display: block;
+	float: left;
+	margin-left: 6px;
+	background: url('../img/slider_btns.png') no-repeat;
+	background-position: 0px -14px;
+}
+
+.ecommy-slideshow .cpanel a.on {
+	background-position: 0 0px;
+}
